@@ -1,8 +1,8 @@
-﻿if ( GetLocale() ~= "esMX" ) then
+if ( GetLocale() ~= "esES" ) then
 	return;
 end
 
-local L = LibStub("AceLocale-3.0"):NewLocale("Carbonite", "esMX")
+local L = LibStub("AceLocale-3.0"):NewLocale("Carbonite", "esES")
 if not L then return end
 
 -- Kalimdor/Eastern Kingdoms
@@ -57,7 +57,7 @@ L["Gadgetzan, Tanaris"] = "Gadgetzan, Tanaris"
 L["Valormok, Azshara"] = "Valormok, Azshara"
 L["Talrendis Point, Azshara"] = "Punta Talrendis, Azshara"
 L["Emerald Sanctuary, Felwood"] = "Santuario Esmeralda, Frondavil"
-L["Bloodvenom Post, Felwood"] = "Puesto del Veneno, Frondavil"
+L["Bloodvenom Post, Felwood"] = "Puesto del Veneno"
 L["Talonbranch Glade, Felwood"] = "Claro Ramaespolón, Frondavil"
 L["Marshal's Refuge, Un'Goro Crater"] = "Refugio de Marshal, Cráter de Un'Goro"
 L["Moonglade"] = "Claro de la Luna"
@@ -106,7 +106,7 @@ L["Area 52, Netherstorm"] = "Área 52, Tormenta Abisal"
 L["The Stormspire, Netherstorm"] = "La Flecha de la Tormenta, Tormenta Abisal"
 L["Cosmowrench, Netherstorm"] = "Cosmotirón, Tormenta Abisal"
 L["Shattrath, Terokkar Forest"] = "Shattrath, Bosque de Terokkar"
-L["Shattered Sun Staging Area"] = "Zona de Escala de Sol Devastado"
+L["Shattered Sun Staging Area"] = "Zona de escala de Sol Devastado"
 
 -- Northrend
 
@@ -157,54 +157,54 @@ L["Ebon Watch, Zul'Drak"] = "Puesto de Vigilancia de Ébano, Zul'Drak"
 L["Light's Breach, Zul'Drak"] = "Brecha de la Luz, Zul'Drak"
 L["Zim'Torga, Zul'Drak"] = "Zim'Torga, Zul'Drak"
 L["Gundrak, Zul'Drak"] = "Gundrak, Zul'Drak"
-L["Valiance Landing Camp, Wintergrasp"] = "Campo de Aterrizaje de Denuedo, Conquista del Invierno"
+L["Valiance Landing Camp, Wintergrasp"] = "Campamento de Aterrizaje de Denuedo, Conquista del Invierno"
 L["Warsong Camp, Wintergrasp"] = "Campamento Grito de Guerra, Conquista del Invierno"
 L["Windrunner's Overlook, Crystalsong Forest"] = "Mirador Brisaveloz, Bosque Canto de Cristal"
 L["Sunreaver's Command, Crystalsong Forest"] = "Dominio de los Atracasol, Bosque Canto de Cristal"
 
 -- Portals, Boats, Zeppelins
-L["Tram to Stormwind City"] = true
-L["Tram to Ironforge"] = true
-L["Boat to Stranglethorn Vale"] = true
+L["Tram to Stormwind City"] = "Tranvía a Ciudad de Ventormenta"
+L["Tram to Ironforge"] = "Tranvía a Forjaz"
+L["Boat to Stranglethorn Vale"] = "Barco a Vega de Tuercespina"
 
-L["Boat to Dustwallow Marsh"] = true
-L["Boat to Stormwind City"] = true
-L["Boat to Darkshore"] = true
-L["Boat to Teldrassil"] = true
-L["Boat to Azuremyst Isle"] = true
-L["Boat to Wetlands"] = true
-L["Boat to The Barrens"] = true
-L["Boat to Borean Tundra"] = true
-L["Boat to Howling Fjord"] = true
-L["Boat to Dragonblight"] = true
+L["Boat to Dustwallow Marsh"] = "Barco a Marjal Revolcafango"
+L["Boat to Stormwind City"] = "Barco a Ciudad de Ventormenta"
+L["Boat to Darkshore"] = "Barco a Costa Oscura"
+L["Boat to Teldrassil"] = "Barco a Teldrassil"
+L["Boat to Azuremyst Isle"] = "Barco a Isla Bruma Azur"
+L["Boat to Wetlands"] = "Barco a Los Humedales"
+L["Boat to The Barrens"] = "Barco a Los Baldíos"
+L["Boat to Borean Tundra"] = "Barco a Tundra Boreal"
+L["Boat to Howling Fjord"] = "Barco a Fiordo Aquilonal"
+L["Boat to Dragonblight"] = "Barco a Cementerio de Dragones"
 
-L["Portal to Darnassus"] = true
-L["Portal to Exodar"] = true
-L["Portal to Ironforge"] = true
-L["Portal to Isle of Quel'Danas"] = true
-L["Portal to Stormwind"] = true
-L["Portal to Teldrassil"] = true
+L["Portal to Darnassus"] = "Portal a Darnassus"
+L["Portal to Exodar"] = "Portal a El Exodar"
+L["Portal to Ironforge"] = "Portal a Forjaz"
+L["Portal to Isle of Quel'Danas"] = "Portal a Isla de Quel'Danas"
+L["Portal to Stormwind"] = "Portal a Ciudad de Ventormenta"
+L["Portal to Teldrassil"] = "Portal a Teldrassil"
 
-L["Portal to Thunder Bluff"] = true
-L["Portal to Orgrimmar"] = true
-L["Portal to Undercity"] = true
-L["Portal to Silvermoon"] = true
+L["Portal to Thunder Bluff"] = "Portal a Cima del Trueno"
+L["Portal to Orgrimmar"] = "Portal a Orgrimmar"
+L["Portal to Undercity"] = "Portal a Entrañas"
+L["Portal to Silvermoon"] = "Portal a Lunargenta"
 
-L["Portal to Blasted Lands"] = true
-L["Portal to Hellfire Peninsula"] = true
+L["Portal to Blasted Lands"] = "Portal a Las Tierras Devastadas"
+L["Portal to Hellfire Peninsula"] = "Portal a Península del Fuego Infernal"
 
-L["Portal to Dalaran"] = true
+L["Portal to Dalaran"] = "Portal a Dalaran"
 
-L["Portal to Shattrath"] = true
-L["Portal to Caverns of Time"] = true
+L["Portal to Shattrath"] = "Portal a Shattrath"
+L["Portal to Caverns of Time"] = "Portal a Cavernas del Tiempo"
 
-L["Zeppelin to Stranglethorn Vale"] = true
-L["Zeppelin to Undercity"] = true
-L["Zeppelin to Orgrimmar"] = true
-L["Zeppelin to Borean Tundra"] = true
+L["Zeppelin to Stranglethorn Vale"] = "Zepelín a Vega de Tuercespina"
+L["Zeppelin to Undercity"] = "Zepelín a Entrañas"
+L["Zeppelin to Orgrimmar"] = "Zepelín a Orgrimmar"
+L["Zeppelin to Borean Tundra"] = "Zepelín a Tundra Boreal"
 
 -- Translation for Flight_LOC
 
-L["Alliance Flight"] = true
-L["Horde Flight"] = true
-L["Neutral Flight"] = true
+L["Alliance Flight"] = "Vuelos de la Alianza"
+L["Horde Flight"] = "Vuelos de la Horda"
+L["Neutral Flight"] = "Vuelos Neutrales"
